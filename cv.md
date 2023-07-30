@@ -1,6 +1,6 @@
 # Sergey Matushkin
 
-## SterbenKiubi
+## Discord: SterbenKiubi
 
 ## +375447826903
 
