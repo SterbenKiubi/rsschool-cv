@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://SterbenKiubi.github.io/rsschool-cv/cv
+[CV](https://SterbenKiubi.github.io/rsschool-cv/cv)
