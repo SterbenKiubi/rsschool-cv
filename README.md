@@ -1,3 +1,3 @@
 # rsschool-cv
 
-[CV](https://SterbenKiubi.github.io/rsschool-cv/cv)
+[My GitHub](https://SterbenKiubi.github.io/rsschool-cv/)
