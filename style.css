@@ -27,6 +27,15 @@ header {
 .about {
     align-self: center;
 }
+.about_img-div {
+    display: flex;
+    justify-content: center;
+}
+.about_profile-pic {
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+}
 footer {
     display: flex;
     justify-content: center;
