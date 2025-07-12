@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+}
+.page {
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.about {
+    align-self: center;
+}
