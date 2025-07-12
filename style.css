@@ -27,3 +27,11 @@ header {
 .about {
     align-self: center;
 }
+footer {
+    display: flex;
+    justify-content: center;
+}
+.rs-logo {
+    width: 120px;
+    height: 20px;
+}
