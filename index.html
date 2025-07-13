@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <nav>
+                <ul class="nav_list">
+                    <li>
+                        <a href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">CONTACTS</a>
+                    </li>
+                    <li>
+                        <a href="#skills">SKILLS</a>
+                    </li>
+                    <li>
+                        <a href="#expierence">EXPIERENCE</a>
+                    </li>
+                    <li>
+                        <a href="#education">EDUCATION</a>
+                    </li>
+                    <li>
+                        <a href="#language">LANGUAGE</a>
+                    </li>
+                    <li>
+                        <a href="#project">PROJECT</a>
+                    </li>
+                    <li>
+                        <a href="#code-example">CODE</a>
+                    </li>
+                    <li>
+                        <a href="#language">LANGUAGE</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="about" class="about">
+                <div class="about_img-div">
+                    <img class="about_profile-pic" src="assets/img/profile-pic.webp" alt="profile picture">
+                </div>
+                <div class="about_info">
+                    <h1>Hello everyone! I'm Sergey!</h1>
+                    <p>Ready to solve complex problems and work
+                        productively in a team.
+                        I am looking for new opportunities 
+                        that will help me grow as a specialist.</p>
+                        <ul id="contacts" class="about_contacts-list">
+                            <li><span class="about_contacts-list_span">Phone: </span>+375447826903</li>
+                            <li><span class="about_contacts-list_span">Email: </span>sergey.drik.98@gmail.com</li>
+                            <li><span class="about_contacts-list_span">Telegram: </span>@SterbenKiubi</li>
+                            <li><span class="about_contacts-list_span">Discord: </span>Sterben#9755</li>
+                        </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="skills" class="main_skills">
+                <h2>Skills</h2>
+                <ul class="main_skills_list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JS</li>
+                    <li>VS Code</li>
+                    <li>Git</li>
+                </ul>
+            <div id="expierence">
+                <h2>Expierence</h2>
+                <p>For now I don’t have any work experience in the IT sphere.</p>
+            </div>
+            <div id="education">
+                <h2>EDUCATION</h2>
+                <p>Higher technical education.</p>
+            </div>
+            <div id="project">
+                <h2>Project</h2>
+                <a href="https://sterbenkiubi.github.io/It-Academy/IncrediRecord/">IncrediRecord</a>
+                <p>The project is a music web application in which you can create music using records.</p>
+            </div>
+            <div id="code-example">
+                <h2>Code example</h2>
+                <pre class="main_code-example">
+                    const deepClone = (obj) => {
+                        if (obj === null || typeof obj !== 'object') {
+                            return obj;
+                        }
+
+                        const clone = Array.isArray(obj) ? [] : {};
+
+                        for (const key in obj) {
+                            if (obj.hasOwnProperty(key)) {
+                            clone[key] = deepClone(obj[key]);
+                            }
+                        }
+
+                        return clone;
+                        };
+                </pre>
+            </div>
+            <div id="language">
+                <h2>Language</h2>
+                <p>English - B1</p>
+            </div>
+            </div>
+        </main>
+        <footer>
+            <a class="footer_link-rs" href="https://rs.school/courses/javascript-preschool-ru" target="_blank">
+                <img class="rs-logo" src="./assets/icons/rs-school-logo.svg" alt="logo">
+            </a>
+            <p>2025</p>
+            <p>Made by <a href="https://github.com/SterbenKiubi" target="_blank">Sterben</a></p>
+        </footer>
+    </div>
+</body>
+</html>
